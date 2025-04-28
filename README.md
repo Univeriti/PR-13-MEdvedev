@@ -12,7 +12,7 @@ class DATA {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\nМеню:");
+            System.out.println("Меню:");
             System.out.println("1. Додати запис");
             System.out.println("2. Видалити запис за датою");
             System.out.println("3. Переглянути всі записи");
@@ -62,7 +62,7 @@ class DATA {
         while (true) {
             line = scanner.nextLine();
             if (line.isEmpty()) break;
-            entry.append(line).append("\n");
+            entry.append(line).append("");
         }
 
         dates[currentIndex] = date;
